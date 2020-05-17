@@ -56,7 +56,7 @@ a:hover {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   max-width: 80rem;
   margin: 0 auto;
   padding: 2rem;
@@ -140,4 +140,10 @@ input {
 
 input::placeholder {
   color: #aaa;
+}
+
+@media screen and (max-width:400px) {
+  .container {
+    align-items: baseline;
+  }
 }
