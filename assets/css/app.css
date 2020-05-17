@@ -142,7 +142,16 @@ input::placeholder {
   color: #aaa;
 }
 
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
+
 @media screen and (max-width:400px) {
+  h2 {
+    font-size: 2.3rem;
+  }
   .container {
     align-items: baseline;
   }
